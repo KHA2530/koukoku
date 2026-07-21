@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<title>電子公告 | 123株式会社</title>
+<style>
+  :root{
+    --ink:#1a1a2e;
+    --sub:#5a5a6e;
+    --line:#e2e2ec;
+    --accent:#1f3a8a;
+    --bg:#f6f7fb;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    font-family:"Hiragino Kaku Gothic ProN","Yu Gothic","Meiryo",system-ui,sans-serif;
+    color:var(--ink);
+    background:var(--bg);
+    line-height:1.9;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:820px;margin:0 auto;padding:0 20px}
+  header{
+    background:#fff;
+    border-bottom:3px solid var(--accent);
+  }
+  header .wrap{padding:34px 20px 30px}
+  .company{
+    font-size:26px;
+    font-weight:700;
+    letter-spacing:.04em;
+  }
+  .company .en{
+    display:block;
+    font-size:12px;
+    color:var(--sub);
+    font-weight:500;
+    letter-spacing:.14em;
+    margin-top:6px;
+  }
+  main .wrap{padding:44px 20px 60px}
+  h1{
+    font-size:21px;
+    font-weight:700;
+    padding-bottom:12px;
+    border-bottom:1px solid var(--line);
+    margin-bottom:26px;
+    letter-spacing:.06em;
+  }
+  .notice{
+    background:#fff;
+    border:1px solid var(--line);
+    border-radius:10px;
+    padding:30px 28px;
+  }
+  .notice p{margin-bottom:16px;color:var(--ink)}
+  .notice p:last-child{margin-bottom:0}
+  .muted{color:var(--sub);font-size:14px}
+  .meta{
+    margin-top:32px;
+    font-size:14px;
+    color:var(--sub);
+  }
+  .meta dl{
+    display:grid;
+    grid-template-columns:120px 1fr;
+    row-gap:10px;
+    column-gap:16px;
+  }
+  .meta dt{font-weight:700;color:var(--ink)}
+  footer{
+    border-top:1px solid var(--line);
+    background:#fff;
+  }
+  footer .wrap{
+    padding:22px 20px;
+    font-size:12px;
+    color:var(--sub);
+    text-align:center;
+    letter-spacing:.05em;
+  }
+  @media(max-width:600px){
+    .company{font-size:22px}
+    .meta dl{grid-template-columns:96px 1fr}
+  }
+</style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="company">123株式会社<span class="en">123 CO., LTD.</span></div>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+      <h1>電子公告</h1>
+
+      <div class="notice">
+        <p>当社の電子公告は、本ウェブサイトに掲載する方法により行います。</p>
+        <p>決算公告（貸借対照表）は、定時株主総会の終結後、本ページにて掲載いたします。</p>
+        <p class="muted">第1期決算公告は、第1期事業年度終了後に掲載を予定しております。</p>
+      </div>
+
+      <div class="meta">
+        <dl>
+          <dt>商　号</dt><dd>123株式会社</dd>
+          <dt>公告方法</dt><dd>電子公告（本ウェブサイトへの掲載）</dd>
+          <dt>公告URL</dt><dd>https://123.myanmar-japan.store/</dd>
+        </dl>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">© 123株式会社</div>
+  </footer>
+</body>
+</html>
